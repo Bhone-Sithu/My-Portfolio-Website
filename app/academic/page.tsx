@@ -34,7 +34,7 @@ function Academic() {
 
             <span className="lg:absolute mx-auto my-5 z-10 flex items-center justify-center lg:w-20 lg:h-20 w-5/12 p-5 lg:p-1 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
               <Image
-                src={"/UOGlogo.png"}
+                src={"/logos/UOGlogo.png"}
                 alt="UOG Logo"
                 width={600}
                 height={600}
@@ -100,7 +100,7 @@ function Academic() {
 
             <span className="lg:absolute mx-auto my-5 z-10 flex items-center justify-center lg:w-20 lg:h-20 w-5/12 p-5 lg:p-1 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-gray-600 group-hover:border-zinc-200 drop-shadow-orange">
               <Image
-                src={"/UITlogo.png"}
+                src={"/logos/UITlogo.png"}
                 alt="UIT Logo"
                 width={600}
                 height={600}
@@ -191,7 +191,7 @@ function Academic() {
               />
               <span className="p-1 mx-auto mb-4 relative z-10 flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
                 <Image
-                  src={"/NCClogo.png"}
+                  src={"/logos/NCClogo.png"}
                   alt="NCC Logo"
                   width={300}
                   height={300}
@@ -223,7 +223,7 @@ function Academic() {
               />
               <span className="p-1 mx-auto mb-4 relative z-10 flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
                 <Image
-                  src={"/NCClogo.png"}
+                  src={"/logos/NCClogo.png"}
                   alt="NCC Logo"
                   width={300}
                   height={300}
@@ -256,7 +256,7 @@ function Academic() {
               />
               <span className="p-1 mx-auto mb-4 relative z-10 flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
                 <Image
-                  src={"/TTClogo.png"}
+                  src={"/logos/TTClogo.png"}
                   alt="TTC Logo"
                   width={100}
                   height={100}

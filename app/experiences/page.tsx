@@ -21,7 +21,7 @@ function Experiences() {
 
             <span className="lg:absolute mx-auto my-5 z-10 flex items-center justify-center lg:w-20 lg:h-20 w-5/12 p-5 lg:p-1 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
               <Image
-                src={"/SourceCodeLogo.png"}
+                src={"/logos/SourceCodeLogo.png"}
                 alt="Source Code Logo"
                 width={600}
                 height={600}
@@ -102,7 +102,7 @@ function Experiences() {
 
             <span className="lg:absolute z-10 mx-auto my-5 flex items-center justify-center lg:w-20 lg:h-20 w-5/12 p-3 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
               <Image
-                src={"/CMHLLogo.png"}
+                src={"/logos/CMHLLogo.png"}
                 alt="CMHL Logo"
                 width={600}
                 height={600}

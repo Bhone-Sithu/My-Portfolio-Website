@@ -18,7 +18,7 @@ function Academic() {
             className="lg:absolute left-0 z-9 top-4 w-5/12 h-px  bg-gradient-to-l from-zinc-500 via-zinc-500/50 to-transparent"
             aria-hidden="true"
           />
-          <p className="w-fit mx-auto z-10">Degrees</p>
+          <p className="w-fit mx-auto ">Degrees</p>
 
           <span
             className="lg:absolute right-0 z-9 top-4 w-5/12 h-px  bg-gradient-to-r from-zinc-500 via-zinc-500/50 to-transparent"
@@ -32,7 +32,7 @@ function Academic() {
               aria-hidden="true"
             />
 
-            <span className="lg:absolute mx-auto my-5 z-10 flex items-center justify-center lg:w-20 lg:h-20 w-5/12 p-5 lg:p-1 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
+            <span className="lg:absolute mx-auto my-5  flex items-center justify-center lg:w-20 lg:h-20 w-5/12 p-5 lg:p-1 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
               <Image
                 src={"/logos/UOGlogo.png"}
                 alt="UOG Logo"
@@ -41,7 +41,7 @@ function Academic() {
               />
             </span>
 
-            <div className="z-10 flex flex-col items-center">
+            <div className=" flex flex-col items-center">
               <span className="lg:text-xl font-medium duration-150 xl:text-3xl text-zinc-200 group-hover:text-white font-display">
                 <h2 className="text-4xl md:text-5xl text-center">
                   {" "}
@@ -65,7 +65,7 @@ function Academic() {
                 className="lg:ml-12 mt-4 duration-1000 text-zinc-400 group-hover:text-zinc-200"
                 // style={{ marginLeft: 3.5 + "em", fontSize: 0.9 + "rem" }}
               >
-                <ul className="list-disc z-10 flex flex-col gap-2">
+                <ul className="list-disc  flex flex-col gap-2">
                   <li>
                     Implemented a full-stack final year project (Freelance
                     website similar to Indeed or Upwork) independently,
@@ -98,7 +98,7 @@ function Academic() {
               aria-hidden="true"
             />
 
-            <span className="lg:absolute mx-auto my-5 z-10 flex items-center justify-center lg:w-20 lg:h-20 w-5/12 p-5 lg:p-1 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-gray-600 group-hover:border-zinc-200 drop-shadow-orange">
+            <span className="lg:absolute mx-auto my-5  flex items-center justify-center lg:w-20 lg:h-20 w-5/12 p-5 lg:p-1 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-gray-600 group-hover:border-zinc-200 drop-shadow-orange">
               <Image
                 src={"/logos/UITlogo.png"}
                 alt="UIT Logo"
@@ -107,7 +107,7 @@ function Academic() {
               />
             </span>
 
-            <div className="z-10 flex flex-col items-center">
+            <div className=" flex flex-col items-center">
               <span className="lg:text-xl font-medium duration-150 xl:text-3xl text-zinc-200 group-hover:text-white font-display">
                 <h2 className="text-4xl md:text-5xl text-center">
                   {" "}
@@ -131,7 +131,7 @@ function Academic() {
                 className="lg:ml-12 mt-4 duration-1000 text-zinc-400 group-hover:text-zinc-200"
                 // style={{ marginLeft: 3.5 + "em", fontSize: 0.9 + "rem" }}
               >
-                <ul className="list-disc z-10 flex flex-col gap-2">
+                <ul className="list-disc  flex flex-col gap-2">
                   <li>
                     Led a team in the development of a desktop software
                     application using C++ and Qt for GUI development, ensuring
@@ -175,7 +175,7 @@ function Academic() {
             className="lg:absolute left-0 z-9 top-4 w-5/12 h-px  bg-gradient-to-l from-zinc-500 via-zinc-500/50 to-transparent"
             aria-hidden="true"
           />
-          <p className="w-fit mx-auto z-10">Certificates</p>
+          <p className="w-fit mx-auto ">Certificates</p>
 
           <span
             className="lg:absolute right-0 z-9 top-4 w-5/12 h-px  bg-gradient-to-r from-zinc-500 via-zinc-500/50 to-transparent"
@@ -189,7 +189,7 @@ function Academic() {
                 className="absolute left-1/2 top-24 w-px h-2/3 bg-gradient-to-b from-zinc-500 via-zinc-500/50 to-transparent"
                 aria-hidden="true"
               />
-              <span className="p-1 mx-auto mb-4 relative z-10 flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
+              <span className="p-1 mx-auto mb-4 relative  flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
                 <Image
                   src={"/logos/NCClogo.png"}
                   alt="NCC Logo"
@@ -197,7 +197,7 @@ function Academic() {
                   height={300}
                 />
               </span>{" "}
-              <div className="z-10 flex flex-col items-center">
+              <div className=" flex flex-col items-center">
                 <span className="relative text-center lg:text-2xl font-medium duration-150 text-zinc-200 group-hover:text-white font-display">
                   NCC L4 Diploma in Computing
                 </span>
@@ -221,7 +221,7 @@ function Academic() {
                 className="absolute left-1/2 top-24 w-px h-2/3 bg-gradient-to-b from-zinc-500 via-zinc-500/50 to-transparent"
                 aria-hidden="true"
               />
-              <span className="p-1 mx-auto mb-4 relative z-10 flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
+              <span className="p-1 mx-auto mb-4 relative  flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
                 <Image
                   src={"/logos/NCClogo.png"}
                   alt="NCC Logo"
@@ -229,7 +229,7 @@ function Academic() {
                   height={300}
                 />
               </span>{" "}
-              <div className="z-10 flex flex-col items-center">
+              <div className=" flex flex-col items-center">
                 <span className="relative text-center lg:text-2xl font-medium duration-150 text-zinc-200 group-hover:text-white font-display">
                   NCC L5 Diploma in Computing
                 </span>
@@ -254,7 +254,7 @@ function Academic() {
                 className="absolute left-1/2 top-24 w-px h-2/3 bg-gradient-to-b from-zinc-500 via-zinc-500/50 to-transparent"
                 aria-hidden="true"
               />
-              <span className="p-1 mx-auto mb-4 relative z-10 flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
+              <span className="p-1 mx-auto mb-4 relative  flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
                 <Image
                   src={"/logos/TTClogo.png"}
                   alt="TTC Logo"
@@ -262,7 +262,7 @@ function Academic() {
                   height={100}
                 />
               </span>{" "}
-              <div className="z-10 flex flex-col items-center">
+              <div className=" flex flex-col items-center">
                 <span className="relative text-center lg:text-2xl font-medium duration-150 text-zinc-200 group-hover:text-white font-display">
                   High School
                   <br />

@@ -14,7 +14,7 @@ export default function About() {
           id="self-intro"
           className="flex flex-col md:flex-row gap-24 justify-center items-center"
         >
-          <span className="p-2 pr-14 mb-4 w-fit relative  z-10 flex items-center justify-center text-sm duration-1000 border rounded-3xl text-zinc-200 group-hover:text-white  border-zinc-500 bg-transparent group-hover:border-zinc-200 drop-shadow-orange">
+          <span className="p-2 pr-14 mb-4 w-fit relative flex items-center justify-center text-sm duration-1000 border rounded-3xl text-zinc-200 group-hover:text-white  border-zinc-500 bg-transparent group-hover:border-zinc-200 drop-shadow-orange">
             <Image
               className="left-52"
               src={"/BSTtransparent.png"}
@@ -43,7 +43,7 @@ export default function About() {
               className="lg:absolute left-0 z-9 top-4 w-4/12 h-px  bg-gradient-to-l from-zinc-500 via-zinc-500/50 to-transparent"
               aria-hidden="true"
             />
-            <p className="w-fit mx-auto z-10 ">Programming Languages</p>
+            <p className="w-fit mx-auto  ">Programming Languages</p>
 
             <span
               className="lg:absolute right-0 z-9 top-4 w-4/12 h-px  bg-gradient-to-r from-zinc-500 via-zinc-500/50 to-transparent"
@@ -53,7 +53,7 @@ export default function About() {
           <div className="container flexmin-h-screen px-4 mx-auto">
             <div className="grid w-full grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 mx-auto sm:mt-0  lg:gap-16">
               <div>
-                <span className=" mx-auto mb-4 relative z-10 flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
+                <span className=" mx-auto mb-4 relative  flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
                   <Image
                     className="rounded-full"
                     src={"/logos/JavascriptLogo.jpg"}
@@ -67,7 +67,7 @@ export default function About() {
                 </p>
               </div>
               <div>
-                <span className="p-1 mx-auto mb-4 relative z-10 flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
+                <span className="p-1 mx-auto mb-4 relative  flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
                   <Image
                     src={"/logos/CLogo.png"}
                     alt="C# Logo"
@@ -80,7 +80,7 @@ export default function About() {
                 </p>
               </div>
               <div>
-                <span className=" mx-auto mb-4 relative z-10 flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
+                <span className=" mx-auto mb-4 relative  flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
                   <Image
                     className="rounded-full"
                     src={"/logos/PhpLogo.jpg"}
@@ -94,7 +94,7 @@ export default function About() {
                 </p>
               </div>
               <div>
-                <span className="p-1 mx-auto mb-4 relative z-10 flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
+                <span className="p-1 mx-auto mb-4 relative  flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
                   <Image
                     src={"/logos/DartLogo.png"}
                     alt="Dart Logo"
@@ -115,7 +115,7 @@ export default function About() {
               className="lg:absolute left-0 z-9 top-4 w-4/12 h-px  bg-gradient-to-l from-zinc-500 via-zinc-500/50 to-transparent"
               aria-hidden="true"
             />
-            <p className="w-fit mx-auto z-10 ">Libraries & Frameworks</p>
+            <p className="w-fit mx-auto  ">Libraries & Frameworks</p>
 
             <span
               className="lg:absolute right-0 z-9 top-4 w-4/12 h-px  bg-gradient-to-r from-zinc-500 via-zinc-500/50 to-transparent"
@@ -125,7 +125,7 @@ export default function About() {
           <div className="container flexmin-h-screen px-4 mx-auto">
             <div className="grid w-full grid-cols-2 sm:grid-cols-3 md:grid-cols-4 sm:grid-cols-3 gap-8 m-0 lg:grid-cols-4 lg:gap-16">
               <div>
-                <span className="p-1 mx-auto mb-4 relative z-10 flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
+                <span className="p-1 mx-auto mb-4 relative  flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
                   <Image
                     className="rounded-full"
                     src={"/logos/ReactLogo.png"}
@@ -139,7 +139,7 @@ export default function About() {
                 </p>
               </div>
               <div>
-                <span className="p-1 mx-auto mb-4 relative z-10 flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
+                <span className="p-1 mx-auto mb-4 relative  flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
                   <Image
                     src={"/logos/NextLogo.png"}
                     alt="Next Logo"
@@ -152,7 +152,7 @@ export default function About() {
                 </p>
               </div>
               <div>
-                <span className="p-3 mx-auto mb-4 relative z-10 flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
+                <span className="p-3 mx-auto mb-4 relative  flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
                   <Image
                     src={"/logos/JestLogo.png"}
                     alt="Jest Logo"
@@ -165,7 +165,7 @@ export default function About() {
                 </p>
               </div>
               <div>
-                <span className="p-1 mx-auto mb-4 relative z-10 flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
+                <span className="p-1 mx-auto mb-4 relative  flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
                   <Image
                     className="rounded-full"
                     src={"/logos/ReduxLogo.png"}
@@ -179,7 +179,7 @@ export default function About() {
                 </p>
               </div>
               <div>
-                <span className="p-1 mx-auto mb-4 relative z-10 flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
+                <span className="p-1 mx-auto mb-4 relative  flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
                   <Image
                     src={"/logos/TypeScriptLogo.jpg"}
                     alt="TypeScript Logo"
@@ -192,7 +192,7 @@ export default function About() {
                 </p>
               </div>
               <div>
-                <span className="p-1 mx-auto mb-4 relative z-10 flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
+                <span className="p-1 mx-auto mb-4 relative  flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
                   <Image
                     src={"/logos/NodeJSLogo.png"}
                     alt="NodeJS Logo"
@@ -205,7 +205,7 @@ export default function About() {
                 </p>
               </div>
               <div>
-                <span className="p-1 mx-auto mb-4 relative z-10 flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
+                <span className="p-1 mx-auto mb-4 relative  flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
                   <Image
                     src={"/logos/ASPdotnetLogo.png"}
                     alt="ASP Logo"
@@ -218,7 +218,7 @@ export default function About() {
                 </p>
               </div>
               <div>
-                <span className="p-3 mx-auto mb-4 relative z-10 flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
+                <span className="p-3 mx-auto mb-4 relative  flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
                   <Image
                     src={"/logos/LaravelLogo.png"}
                     alt="Laravel Logo"
@@ -231,7 +231,7 @@ export default function About() {
                 </p>
               </div>
               <div>
-                <span className="p-1 mx-auto mb-4 relative z-10 flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
+                <span className="p-1 mx-auto mb-4 relative  flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
                   <Image
                     className="rounded-full"
                     src={"/logos/FlutterLogo.png"}
@@ -245,7 +245,7 @@ export default function About() {
                 </p>
               </div>
               <div>
-                <span className="p-1 mx-auto mb-4 relative z-10 flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
+                <span className="p-1 mx-auto mb-4 relative  flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
                   <Image
                     src={"/logos/BlocLogo.png"}
                     alt="BlocLogo"
@@ -258,7 +258,7 @@ export default function About() {
                 </p>
               </div>
               <div>
-                <span className="p-1 mx-auto mb-4 relative z-10 flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
+                <span className="p-1 mx-auto mb-4 relative  flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
                   <Image
                     className="rounded-full"
                     src={"/logos/FirebaseLogo.png"}
@@ -272,7 +272,7 @@ export default function About() {
                 </p>
               </div>
               <div>
-                <span className="p-1 mx-auto mb-4 relative z-10 flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
+                <span className="p-1 mx-auto mb-4 relative  flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
                   <Github color="black" size={50} />
                 </span>{" "}
                 <p className="relative mx-auto text-center lg:text-2xl font-medium duration-150 text-zinc-200 group-hover:text-white font-display">
@@ -288,7 +288,7 @@ export default function About() {
               className="lg:absolute left-0 z-9 top-4 w-5/12 h-px  bg-gradient-to-l from-zinc-500 via-zinc-500/50 to-transparent"
               aria-hidden="true"
             />
-            <p className="w-fit mx-auto z-10 ">Principles</p>
+            <p className="w-fit mx-auto  ">Principles</p>
 
             <span
               className="lg:absolute right-0 z-9 top-4 w-5/12 h-px  bg-gradient-to-r from-zinc-500 via-zinc-500/50 to-transparent"
@@ -298,7 +298,7 @@ export default function About() {
           <div className="container flexmin-h-screen px-4 mx-auto">
             <div className="grid w-full grid-cols-2 sm:grid-cols-3 md:grid-cols-4 sm:grid-cols-3 gap-8 m-0 lg:grid-cols-4 lg:gap-16">
               <div>
-                <span className=" mx-auto mb-4 relative z-10 flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
+                <span className=" mx-auto mb-4 relative  flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
                   <Image
                     className="rounded-full"
                     src={"/logos/CleanCodeLogo.png"}
@@ -312,7 +312,7 @@ export default function About() {
                 </p>
               </div>
               <div>
-                <span className=" mx-auto mb-4 relative z-10 flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
+                <span className=" mx-auto mb-4 relative  flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
                   <Image
                     src={"/logos/SOLIDLogo.png"}
                     alt="SOLID Logo"
@@ -325,7 +325,7 @@ export default function About() {
                 </p>
               </div>
               <div>
-                <span className="p-1 mx-auto mb-4 relative z-10 flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
+                <span className="p-1 mx-auto mb-4 relative  flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
                   <Image
                     className="rounded-full"
                     src={"/logos/3LayerLogo.png"}
@@ -339,7 +339,7 @@ export default function About() {
                 </p>
               </div>
               <div>
-                <span className="p-1 mx-auto mb-4 relative z-10 flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
+                <span className="p-1 mx-auto mb-4 relative  flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
                   <Image
                     src={"/logos/TDDLogo.webp"}
                     alt="TDD Logo"
@@ -352,7 +352,7 @@ export default function About() {
                 </p>
               </div>
               <div>
-                <span className="p-1 mx-auto mb-4 relative z-10 flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
+                <span className="p-1 mx-auto mb-4 relative  flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
                   <Image
                     className="rounded-full"
                     src={"/logos/UIUXLogo.png"}
@@ -366,7 +366,7 @@ export default function About() {
                 </p>
               </div>
               <div>
-                <span className=" mx-auto mb-4 relative z-10 flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
+                <span className=" mx-auto mb-4 relative  flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
                   <Image
                     className="rounded-full"
                     src={"/logos/ResponsiveLogo.png"}
@@ -380,7 +380,7 @@ export default function About() {
                 </p>
               </div>
               <div>
-                <span className=" mx-auto mb-4 relative z-10 flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
+                <span className=" mx-auto mb-4 relative  flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
                   <Image
                     src={"/logos/SEOLogo.png"}
                     alt="SEO Logo"
@@ -393,7 +393,7 @@ export default function About() {
                 </p>
               </div>
               <div>
-                <span className="p-1 mx-auto mb-4 relative z-10 flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
+                <span className="p-1 mx-auto mb-4 relative  flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
                   <Image
                     className="rounded-full"
                     src={"/logos/AgileLogo.webp"}
@@ -407,7 +407,7 @@ export default function About() {
                 </p>
               </div>
               <div>
-                <span className="p-2 mx-auto mb-4 relative z-10 flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
+                <span className="p-2 mx-auto mb-4 relative  flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
                   <Image
                     src={"/logos/ScrumLogo.png"}
                     alt="Scrum Logo"
@@ -420,7 +420,7 @@ export default function About() {
                 </p>
               </div>
               <div>
-                <span className=" mx-auto mb-4 relative z-10 flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
+                <span className=" mx-auto mb-4 relative  flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
                   <Image
                     src={"/logos/RestLogo.webp"}
                     alt="Rest Logo"
@@ -441,7 +441,7 @@ export default function About() {
               className="lg:absolute left-0 z-9 top-4 w-5/12 h-px  bg-gradient-to-l from-zinc-500 via-zinc-500/50 to-transparent"
               aria-hidden="true"
             />
-            <p className="w-fit mx-auto z-10 ">Soft Skills</p>
+            <p className="w-fit mx-auto  ">Soft Skills</p>
 
             <span
               className="lg:absolute right-0 z-9 top-4 w-5/12 h-px  bg-gradient-to-r from-zinc-500 via-zinc-500/50 to-transparent"
@@ -451,7 +451,7 @@ export default function About() {
           <div className="container flexmin-h-screen px-4 mx-auto">
             <div className="grid w-full grid-cols-2 sm:grid-cols-3 md:grid-cols-4 sm:grid-cols-3 gap-8 m-0 lg:grid-cols-4 lg:gap-16">
               <div>
-                <span className="p-1 mx-auto mb-4 relative z-10 flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
+                <span className="p-1 mx-auto mb-4 relative  flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
                   <Image
                     className="rounded-full"
                     src={"/logos/CommunicateLogo.jpg"}
@@ -465,7 +465,7 @@ export default function About() {
                 </p>
               </div>
               <div>
-                <span className="p-1 mx-auto mb-4 relative z-10 flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
+                <span className="p-1 mx-auto mb-4 relative  flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
                   <Image
                     className="rounded-full"
                     src={"/logos/CollaborateLogo.png"}
@@ -479,7 +479,7 @@ export default function About() {
                 </p>
               </div>
               <div>
-                <span className=" mx-auto mb-4 relative z-10 flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
+                <span className=" mx-auto mb-4 relative  flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
                   <Image
                     className="rounded-full"
                     src={"/logos/CriticalLogo.png"}
@@ -493,7 +493,7 @@ export default function About() {
                 </p>
               </div>
               <div>
-                <span className="p-1 mx-auto mb-4 relative z-10 flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
+                <span className="p-1 mx-auto mb-4 relative  flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
                   <Image
                     className="rounded-full"
                     src={"/logos/ProblemLogo.png"}
@@ -507,7 +507,7 @@ export default function About() {
                 </p>
               </div>
               <div>
-                <span className="p-1 mx-auto mb-4 relative z-10 flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
+                <span className="p-1 mx-auto mb-4 relative  flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
                   <Image
                     className="rounded-full"
                     src={"/logos/EQLogo.png"}
@@ -521,7 +521,7 @@ export default function About() {
                 </p>
               </div>
               <div>
-                <span className="p-1 mx-auto mb-4 relative z-10 flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
+                <span className="p-1 mx-auto mb-4 relative  flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
                   <Image
                     className="rounded-full"
                     src={"/logos/DocumentationLogo.jpg"}
@@ -543,7 +543,7 @@ export default function About() {
               className="lg:absolute left-0 z-9 top-4 w-5/12 h-px  bg-gradient-to-l from-zinc-500 via-zinc-500/50 to-transparent"
               aria-hidden="true"
             />
-            <p className="w-fit mx-auto z-10 ">Languages</p>
+            <p className="w-fit mx-auto  ">Languages</p>
 
             <span
               className="lg:absolute right-0 z-9 top-4 w-5/12 h-px  bg-gradient-to-r from-zinc-500 via-zinc-500/50 to-transparent"
@@ -553,7 +553,7 @@ export default function About() {
           <div className="container flexmin-h-screen px-4 mx-auto">
             <div className="grid w-full grid-cols-2 sm:grid-cols-3 md:grid-cols-4 sm:grid-cols-3 gap-8 m-0 lg:grid-cols-4 lg:gap-16">
               <div>
-                <span className="p-1 mx-auto mb-4 relative z-10 flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
+                <span className="p-1 mx-auto mb-4 relative  flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
                   <Image
                     src={"/logos/MyanmarLogo.png"}
                     alt="Myanmar Logo"
@@ -566,7 +566,7 @@ export default function About() {
                 </p>
               </div>
               <div>
-                <span className="p-1 mx-auto mb-4 relative z-10 flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
+                <span className="p-1 mx-auto mb-4 relative  flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
                   <Image
                     src={"/logos/EnglishLogo.png"}
                     alt="English Logo"
@@ -579,7 +579,7 @@ export default function About() {
                 </p>
               </div>
               <div>
-                <span className="p-1 mx-auto mb-4 relative z-10 flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
+                <span className="p-1 mx-auto mb-4 relative  flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
                   <Image
                     className="rounded-full"
                     src={"/logos/ThaiLogo.png"}

@@ -8,11 +8,11 @@ function page() {
   const links: { label: string; href: string }[] = [
     {
       label: "Github",
-      href: " https://github.com/Bhone-Sithu/Freelancer_Employment_WebApp",
+      href: "https://github.com/Bhone-Sithu/NovemberNight",
     },
     {
       label: "Documentation",
-      href: "https://docs.google.com/document/d/1o6bfGjSVGbtjgzRFHW0ckEv6hIpEzlTT/edit?usp=drive_link&ouid=101093057551389131492&rtpof=true&sd=true",
+      href: "https://docs.google.com/document/d/1FS3NsrIFdDUcrmt6lYBOQJmflwQcUY0_/edit?usp=sharing&ouid=101093057551389131492&rtpof=true&sd=true",
     },
   ];
 

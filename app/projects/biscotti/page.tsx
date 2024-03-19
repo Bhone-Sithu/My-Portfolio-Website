@@ -8,11 +8,7 @@ function page() {
   const links: { label: string; href: string }[] = [
     {
       label: "Github",
-      href: " https://github.com/Bhone-Sithu/Freelancer_Employment_WebApp",
-    },
-    {
-      label: "Documentation",
-      href: "https://docs.google.com/document/d/1o6bfGjSVGbtjgzRFHW0ckEv6hIpEzlTT/edit?usp=drive_link&ouid=101093057551389131492&rtpof=true&sd=true",
+      href: "https://github.com/Bhone-Sithu/Biscotti",
     },
   ];
 

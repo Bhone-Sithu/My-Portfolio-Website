@@ -3,6 +3,7 @@ import React from "react";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 import {
+  AlertTriangle,
   Eye,
   PersonStanding,
   PersonStandingIcon,
@@ -22,6 +23,11 @@ export default async function ProjectsPage() {
           </h2>
           <p className="mt-4 text-zinc-400">
             Some of the projects are from work and some are on my own time.
+          </p>
+          <br />
+          <p className="flex gap-2 text-yellow-600">
+            <AlertTriangle />
+            Note : I am still adding some projects' data at the moment{" "}
           </p>
         </div>
         <div className="w-full h-px bg-zinc-800" />

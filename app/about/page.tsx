@@ -152,6 +152,19 @@ export default function About() {
                 </p>
               </div>
               <div>
+                <span className="p-1 mx-auto mb-4 relative  flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
+                  <Image
+                    src={"/logos/TailwindLogo.png"}
+                    alt="Tailwind Logo"
+                    width={300}
+                    height={300}
+                  />
+                </span>{" "}
+                <p className="relative mx-auto text-center lg:text-2xl font-medium duration-150 text-zinc-200 group-hover:text-white font-display">
+                  Tailwind CSS
+                </p>
+              </div>
+              <div>
                 <span className="p-3 mx-auto mb-4 relative  flex items-center justify-center w-16 h-16 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
                   <Image
                     src={"/logos/JestLogo.png"}

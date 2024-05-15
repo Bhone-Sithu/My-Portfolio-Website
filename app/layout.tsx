@@ -10,17 +10,15 @@ export const metadata: Metadata = {
     default: "bhonesithu.dev",
     template: "%s | bhonesithu.dev",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "A Software Engineer with a growth mindset",
   openGraph: {
     title: "bhonesithu.dev",
-    description: "Co-founder of unkey.dev and founder of planetfall.io",
-    url: "https://bhonesithu.dev",
-    siteName: "bhonesithu.dev",
+    description: "A Software Engineer with a growth mindset",
+    url: "https://bhonesithu.tech",
+    siteName: "bhonesithu.tech",
     images: [
       {
-        url: "https://bhonesithu.dev/og.png",
-        width: 1920,
-        height: 1080,
+        url: "https://bhonesithu.tech/favicon.png",
       },
     ],
     locale: "en-US",
@@ -38,7 +36,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "Chronark",
+    title: "Bhone Si Thu",
     card: "summary_large_image",
   },
   icons: {

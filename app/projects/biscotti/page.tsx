@@ -99,16 +99,7 @@ function page() {
         <section className="mx-auto w-8/12">
           <h2 className="text-3xl font-medium">Context</h2>
           <p className=" leading-relaxed my-10">
-            In some Freelancing Websites, there's a lack of background checks,
-            enabling account creation with just an email. Despite efforts to
-            review scam job postings, some slip through, with fraud targeting
-            users on the rise. Job applicants often find themselves redirected
-            to external websites or given email addresses. The platform connects
-            candidates and employers without specifying job types, leading to
-            confusion. Additionally, freelancers bidding on projects with
-            timelines and budgets seems counterintuitive, as typically employers
-            set payment terms. I developed this project using MERN Stack along
-            with features that would solve these problems.
+            This app is designed only for me and my problems. I have a habit of procrastination. In order to get rid of this, I created this app. Users have to add certain apps that are distracting. By using this app, I overcame procrastination up to 60% efficiency.
           </p>
         </section>
 
@@ -126,152 +117,55 @@ function page() {
         </h1>
         <section id="project-functions" className="">
           <div className="container px-4 my-5 mx-auto">
-            <div className="grid grid-cols-1 gap-8  sm:mt-0 md:grid-cols-2 lg:grid-cols-3 lg:gap-8 justify-center items-center">
+            <div
+                className="grid grid-cols-1 gap-8  sm:mt-0 md:grid-cols-2 lg:grid-cols-3 lg:gap-8 justify-center items-center">
               <div className="p-10 flex flex-col border rounded-xl bg-zinc-800">
-                <span className=" text-center lg:text-2xl font-medium duration-150 text-zinc-200 group-hover:text-white font-display">
-                  Starting Freelance Project
+                <span
+                    className=" text-center lg:text-2xl font-medium duration-150 text-zinc-200 group-hover:text-white font-display">
+                  Solving Math Problem
                 </span>
-                <br />
+                <br/>
                 <span className="mt-4 text-sm duration-1000 text-zinc-400 group-hover:text-zinc-200">
                   <ul className="flex flex-col  gap-3 list-disc">
                     <li>
-                      Verified accounts can utilize key functions, including
-                      project posting, freelancer acceptance, and project
-                      initiation.
+                      Arimethic math problem has to be solved before entering certain application.
                     </li>
                     <li>
-                      Admins review project requests, notifying employers of
-                      approval or rejection.
+                      Math problem increasing its difficult over time.
                     </li>
                     <li>
-                      Approved projects are accessible for freelancers to apply,
-                      and employers can accept candidates or send invitations.
-                    </li>
-                    <li>
-                      Payment transfer to the assigned admin initiates the
-                      project, unlocking communication and dashboard functions
-                      for both parties.
+                      User will feel less and less motivated to go into the app since the difficulty are increasing.
                     </li>
                   </ul>
                 </span>
               </div>
               <div className="z-10 p-10 flex flex-col border rounded-xl bg-zinc-800">
-                <span className=" text-center lg:text-2xl font-medium duration-150 text-zinc-200 group-hover:text-white font-display">
-                  Account Management
+                <span
+                    className=" text-center lg:text-2xl font-medium duration-150 text-zinc-200 group-hover:text-white font-display">
+                  Limit App Usage
                 </span>
-                <br />
+                <br/>
                 <span className="mt-4 text-sm duration-1000 text-zinc-400 group-hover:text-zinc-200">
                   <ul className="flex flex-col  gap-3 list-disc">
                     <li>
-                      Account management functions involve registering and
-                      managing accounts.
+                      The usage of apps that user added are tracked daily
                     </li>
                     <li>
-                      Users register and await approval from admins, who conduct
-                      background checks on unapproved accounts.
-                    </li>
-                    <li>
-                      Approved or rejected accounts receive automatic emails
-                      from the Lancer system.
+                      When the usage is over the daily limit, there will be notification and highlighted in the app.
                     </li>
                   </ul>
                 </span>
               </div>
               <div className="z-10 p-10 flex flex-col border rounded-xl bg-zinc-800">
-                <span className=" text-center lg:text-2xl font-medium duration-150 text-zinc-200 group-hover:text-white font-display">
-                  Payment Transaction
+                <span
+                    className=" text-center lg:text-2xl font-medium duration-150 text-zinc-200 group-hover:text-white font-display">
+                  Recording Time
                 </span>
-                <br />
+                <br/>
                 <span className="mt-4 text-sm duration-1000 text-zinc-400 group-hover:text-zinc-200">
                   <ul className="flex flex-col  gap-3 list-disc">
                     <li>
-                      The website offers a dollar-equivalent currency for
-                      top-ups and withdrawals via Visa, Mastercard, etc.
-                    </li>
-                    <li>
-                      Employers must fund their accounts for project
-                      commencement, with admin approval upon payment receipt.
-                    </li>
-                    <li>
-                      Admins oversee project initiation upon payment
-                      confirmation and handle payments to freelancers upon
-                      project completion.
-                    </li>
-                    <li>
-                      Users can view payment history for past transactions.
-                    </li>
-                  </ul>
-                </span>
-              </div>
-              <div className="z-10 p-10 flex flex-col border rounded-xl bg-zinc-800">
-                <span className=" text-center lg:text-2xl font-medium duration-150 text-zinc-200 group-hover:text-white font-display">
-                  Feedback and Ratings
-                </span>
-                <br />
-                <span className="mt-4 text-sm duration-1000 text-zinc-400 group-hover:text-zinc-200">
-                  <ul className="flex flex-col  gap-3 list-disc">
-                    <li>
-                      Employers can rate give feedbacks to their project’s
-                      freelancers when the project is completed.
-                    </li>
-                    <li>
-                      The rating and feedback will be shown on the user profile.
-                    </li>
-                  </ul>
-                </span>
-              </div>
-              <div className="z-10 p-10 flex flex-col border rounded-xl bg-zinc-800">
-                <span className=" text-center lg:text-2xl font-medium duration-150 text-zinc-200 group-hover:text-white font-display">
-                  Management Report
-                </span>
-                <br />
-                <span className="mt-4 text-sm duration-1000 text-zinc-400 group-hover:text-zinc-200">
-                  <ul className="flex flex-col  gap-3 list-disc">
-                    <li>
-                      This feature enables Lancer's management to analyze
-                      website data for future planning.
-                    </li>
-                    <li>
-                      Statistical reports include project counts for each
-                      skillset or industry, freelancer skillset distribution,
-                      and more.
-                    </li>
-                  </ul>
-                </span>
-              </div>
-              <div className="z-10 p-10 flex flex-col border rounded-xl bg-zinc-800">
-                <span className=" text-center lg:text-2xl font-medium duration-150 text-zinc-200 group-hover:text-white font-display">
-                  Communication Features
-                </span>
-                <br />
-                <span className="mt-4 text-sm duration-1000 text-zinc-400 group-hover:text-zinc-200">
-                  <ul className="flex flex-col  gap-3 list-disc">
-                    <li>
-                      After payment transfer, a communication channel opens for
-                      freelancers, employers, and admins to discuss projects,
-                      share files, and communicate.
-                    </li>
-                    <li>
-                      Admins monitor and manage conversations, deleting
-                      inappropriate messages as needed.
-                    </li>
-                  </ul>
-                </span>
-              </div>
-              <div className="z-10 p-10 flex flex-col border rounded-xl bg-zinc-800">
-                <span className=" text-center lg:text-2xl font-medium duration-150 text-zinc-200 group-hover:text-white font-display">
-                  Project Dashboard
-                </span>
-                <br />
-                <span className="mt-4 text-sm duration-1000 text-zinc-400 group-hover:text-zinc-200">
-                  <ul className="flex flex-col  gap-3 list-disc">
-                    <li>
-                      The dashboard will include chat functions, project
-                      progress bars, requirements, and files.
-                    </li>
-                    <li>
-                      Employers provide requirements, and freelancers upload
-                      files and update progress levels.
+                      Record Duration of your study or work
                     </li>
                   </ul>
                 </span>
@@ -282,14 +176,14 @@ function page() {
 
         <h1 className="relative my-20 w-full text-center text-3xl ">
           <span
-            className="lg:absolute -left-1 z-9 top-4 w-4/12 h-px  bg-gradient-to-l from-zinc-500 via-zinc-500/50 to-transparent"
-            aria-hidden="true"
+              className="lg:absolute -left-1 z-9 top-4 w-4/12 h-px  bg-gradient-to-l from-zinc-500 via-zinc-500/50 to-transparent"
+              aria-hidden="true"
           />
-          <p className="w-fit mx-auto ">Technologies that I used (MERN)</p>
+          <p className="w-fit mx-auto ">Technologies that I used</p>
 
           <span
-            className="lg:absolute -right-1 z-9 top-4 w-4/12 h-px  bg-gradient-to-r from-zinc-500 via-zinc-500/50 to-transparent"
-            aria-hidden="true"
+              className="lg:absolute -right-1 z-9 top-4 w-4/12 h-px  bg-gradient-to-r from-zinc-500 via-zinc-500/50 to-transparent"
+              aria-hidden="true"
           />
         </h1>
         <section id="project-tech">
@@ -299,159 +193,46 @@ function page() {
                 <span className=" mx-auto mb-4 relative z-10 flex items-center justify-center w-16 h-16 text-sm duration-1000  text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
                   <Image
                     className=""
-                    src={"/logos/JavascriptLogo.jpg"}
+                    src={"/logos/FlutterLogo.png"}
                     alt="JS Logo"
                     width={350}
                     height={350}
                   />
                 </span>{" "}
                 <p className="relative mx-auto text-center lg:text-2xl font-medium duration-150 text-zinc-500 group-hover:text-white font-display">
-                  Javascript
+                  Flutter
                 </p>
               </div>
               <div>
                 <span className="p-1 mx-auto mb-4 relative z-10 flex items-center justify-center w-16 h-16 text-sm duration-1000  text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
                   <Image
-                    src={"/logos/ReactLogo.png"}
-                    alt="React Logo"
+                    src={"/logos/DartLogo.png"}
+                    alt="Dart Logo"
                     width={300}
                     height={300}
                   />
                 </span>{" "}
                 <p className="relative mx-auto text-center lg:text-2xl font-medium duration-150 text-zinc-500 group-hover:text-white font-display">
-                  React
+                  Dart
                 </p>
               </div>
               <div>
                 <span className="p-1 mx-auto mb-4 relative z-10 flex items-center justify-center w-16 h-16 text-sm duration-1000  text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
                   <Image
-                    src={"/logos/NodeJSLogo.png"}
-                    alt="NodeJS Logo"
+                    src={"/logos/SQLiteLogo.png"}
+                    alt="SQLite Logo"
                     width={300}
                     height={300}
                   />
                 </span>{" "}
                 <p className="relative mx-auto text-center lg:text-2xl font-medium duration-150 text-zinc-500 group-hover:text-white font-display">
-                  NodeJS
-                </p>
-              </div>
-              <div>
-                <span className="p-1 mx-auto mb-4 relative z-10 flex items-center justify-center w-16 h-16 text-sm duration-1000  text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
-                  <Image
-                    src={"/logos/ReduxLogo.png"}
-                    alt="Redux Logo"
-                    width={300}
-                    height={300}
-                  />
-                </span>{" "}
-                <p className="relative mx-auto text-center lg:text-2xl font-medium duration-150 text-zinc-500 group-hover:text-white font-display">
-                  Redux
-                </p>
-              </div>
-              <div>
-                <span className="p-1 mx-auto mb-4 relative z-10 flex items-center justify-center w-16 h-16 text-sm duration-1000  text-zinc-200 group-hover:text-white  border-zinc-500 bg-white group-hover:border-zinc-200 drop-shadow-orange">
-                  <Image
-                    src={"/logos/JestLogo.png"}
-                    alt="Jest Logo"
-                    width={300}
-                    height={300}
-                  />
-                </span>{" "}
-                <p className="relative mx-auto text-center lg:text-2xl font-medium duration-150 text-zinc-500 group-hover:text-white font-display">
-                  Jest
+                  SQLite
                 </p>
               </div>
             </div>
           </div>
         </section>
-        <h1 className="relative my-20 w-full text-center text-3xl text-transparent duration-1000 text-black cursor-default text-edge-outline bg-clip-text ">
-          <span
-            className="lg:absolute -left-1 z-9 top-4 w-5/12 h-px  bg-gradient-to-l from-zinc-500 via-zinc-500/50 to-transparent"
-            aria-hidden="true"
-          />
-          <p className="text-black">Gallery</p>
-          <span
-            className="lg:absolute -right-1 z-9 top-4 w-5/12 h-px  bg-gradient-to-r from-zinc-500 via-zinc-500/50 to-transparent"
-            aria-hidden="true"
-          />
-        </h1>
-        <section id="gallery">
-          <div className=" w-9/12 grid grid-cols-1 md:grid-cols-2 mx-auto">
-            <Image
-              alt="Chat Mockup"
-              src={"/mocks/lancer/ChatMock.png"}
-              width={600}
-              height={600}
-            />
 
-            <Image
-              alt="Dashboard Mockup"
-              className="border"
-              src={"/mocks/lancer/DashboardMock.png"}
-              width={600}
-              height={600}
-            />
-
-            <Image
-              alt="Payment Mockup"
-              src={"/mocks/lancer/PaymentMock.png"}
-              width={600}
-              height={600}
-            />
-
-            <Image
-              alt="ProjectList Mockup"
-              src={"/mocks/lancer/ProjectListMock.png"}
-              width={600}
-              height={600}
-            />
-          </div>
-        </section>
-        <h1 className="relative my-20 w-full text-center text-3xl text-transparent duration-1000 text-black cursor-default text-edge-outline bg-clip-text ">
-          <span
-            className="lg:absolute -left-1 z-9 top-4 w-5/12 h-px  bg-gradient-to-l from-zinc-500 via-zinc-500/50 to-transparent"
-            aria-hidden="true"
-          />
-          <p className="text-black">System Design</p>
-          <span
-            className="lg:absolute -right-1 z-9 top-4 w-5/12 h-px  bg-gradient-to-r from-zinc-500 via-zinc-500/50 to-transparent"
-            aria-hidden="true"
-          />
-        </h1>
-        <section id="design">
-          <div className=" w-9/12 grid grid-cols-1 md:grid-cols-2 mx-auto gap-10">
-            <Image
-              alt="ERD"
-              className="border"
-              src={"/mocks/lancer/ERD.png"}
-              width={600}
-              height={600}
-            />
-
-            <Image
-              alt="Employer Activity"
-              className="border"
-              src={"/mocks/lancer/Activity.png"}
-              width={400}
-              height={300}
-            />
-
-            <Image
-              alt="Freelancer Activity"
-              className="border"
-              src={"/mocks/lancer/ActivityF.png"}
-              width={400}
-              height={200}
-            />
-            <Image
-              alt="Use Case"
-              className="border"
-              src={"/mocks/lancer/UseCase.png"}
-              width={400}
-              height={400}
-            />
-          </div>
-        </section>
       </article>
     </div>
   );
